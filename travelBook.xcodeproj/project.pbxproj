@@ -13,6 +13,9 @@
 		48DFEC53206D2C75001E47F4 /* travelBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48DFEC51206D2C75001E47F4 /* travelBook.xcdatamodeld */; };
 		48DFEC55206D2C76001E47F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DFEC54206D2C76001E47F4 /* Assets.xcassets */; };
 		48DFEC58206D2C76001E47F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DFEC56206D2C76001E47F4 /* LaunchScreen.storyboard */; };
+		48DFEC60206D3C92001E47F4 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 48DFEC5F206D3C92001E47F4 /* Placeholder.png */; };
+		48DFEC62206D3DB3001E47F4 /* placeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DFEC61206D3DB3001E47F4 /* placeViewController.swift */; };
+		48DFEC64206D77F8001E47F4 /* Continue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DFEC63206D77F8001E47F4 /* Continue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		48DFEC54206D2C76001E47F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48DFEC57206D2C76001E47F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48DFEC59206D2C76001E47F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48DFEC5F206D3C92001E47F4 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Placeholder.png; path = ../../../../../Downloads/Placeholder.png; sourceTree = "<group>"; };
+		48DFEC61206D3DB3001E47F4 /* placeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeViewController.swift; sourceTree = "<group>"; };
+		48DFEC63206D77F8001E47F4 /* Continue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				48DFEC4A206D2C75001E47F4 /* AppDelegate.swift */,
 				48DFEC4C206D2C75001E47F4 /* ViewController.swift */,
+				48DFEC63206D77F8001E47F4 /* Continue.swift */,
+				48DFEC61206D3DB3001E47F4 /* placeViewController.swift */,
 				48DFEC4E206D2C75001E47F4 /* Main.storyboard */,
 				48DFEC54206D2C76001E47F4 /* Assets.xcassets */,
+				48DFEC5F206D3C92001E47F4 /* Placeholder.png */,
 				48DFEC56206D2C76001E47F4 /* LaunchScreen.storyboard */,
 				48DFEC59206D2C76001E47F4 /* Info.plist */,
 				48DFEC51206D2C75001E47F4 /* travelBook.xcdatamodeld */,
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48DFEC58206D2C76001E47F4 /* LaunchScreen.storyboard in Resources */,
+				48DFEC60206D3C92001E47F4 /* Placeholder.png in Resources */,
 				48DFEC55206D2C76001E47F4 /* Assets.xcassets in Resources */,
 				48DFEC50206D2C75001E47F4 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48DFEC62206D3DB3001E47F4 /* placeViewController.swift in Sources */,
 				48DFEC4D206D2C75001E47F4 /* ViewController.swift in Sources */,
 				48DFEC53206D2C75001E47F4 /* travelBook.xcdatamodeld in Sources */,
 				48DFEC4B206D2C75001E47F4 /* AppDelegate.swift in Sources */,
+				48DFEC64206D77F8001E47F4 /* Continue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
